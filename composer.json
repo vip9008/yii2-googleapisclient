@@ -1,0 +1,29 @@
+{
+    "name": "vip9008/yii2-googleapisclient",
+    "type": "yii2-extension",
+    "description": "Google APIs Client library converted as a yii2 extension",
+    "keywords": ["yii2", "yii2-twitter", "google", "vip9008", "googleapisclient"],
+    "license": "Apache-2.0",
+    "support": {
+        "issues": "https://github.com/vip9008/yii2-twitteroauth/issues",
+        "source": "https://github.com/vip9008/yii2-twitteroauth"
+    },
+    "authors": [
+        {
+            "name": "Hussain Almoamen",
+            "email": "ave9008@gmail.com",
+            "homepage": "https://github.com/vip9008",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "ext-curl": "*",
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "vip9008\\googleapisclient\\": ""
+        }
+    }
+}

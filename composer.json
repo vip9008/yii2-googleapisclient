@@ -5,8 +5,8 @@
     "keywords": ["yii2", "yii2-twitter", "google", "vip9008", "googleapisclient"],
     "license": "Apache-2.0",
     "support": {
-        "issues": "https://github.com/vip9008/yii2-twitteroauth/issues",
-        "source": "https://github.com/vip9008/yii2-twitteroauth"
+        "issues": "https://github.com/vip9008/yii2-googleapisclient/issues",
+        "source": "https://github.com/vip9008/yii2-googleapisclient"
     },
     "authors": [
         {

@@ -23,7 +23,10 @@
 
 namespace vip9008\googleapisclient\io;
 
-class Stream extends Abstract
+use vip9008\googleapisclient\Client;
+use vip9008\googleapisclient\http\Request;
+
+class Stream extends BaseAbstract
 {
   const TIMEOUT = "timeout";
   const ZLIB = "compress.zlib://";

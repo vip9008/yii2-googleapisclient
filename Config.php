@@ -49,7 +49,7 @@ class Config
       'auth_class'    => 'OAuth2',
       'io_class'      => self::USE_AUTO_IO_SELECTION,
       'cache_class'   => 'File',
-      'logger_class'  => 'Null',
+      'logger_class'  => 'NullLogger',
 
       // Don't change these unless you're working against a special development
       // or testing environment.

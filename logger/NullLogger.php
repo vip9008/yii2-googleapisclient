@@ -24,7 +24,7 @@ use vip9008\googleapisclient\logger\LoggerAbstract;
  *
  * This logger simply discards all messages.
  */
-class Null extends LoggerAbstract
+class NullLogger extends LoggerAbstract
 {
   /**
    * {@inheritdoc}

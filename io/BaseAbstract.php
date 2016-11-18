@@ -21,7 +21,11 @@
 
 namespace vip9008\googleapisclient\io;
 
-abstract class Abstract
+use vip9008\googleapisclient\Client;
+use vip9008\googleapisclient\http\Request;
+use vip9008\googleapisclient\http\CacheParser;
+
+abstract class BaseAbstract
 {
   const UNKNOWN_CODE = 0;
   const FORM_URLENCODED = 'application/x-www-form-urlencoded';
